@@ -3,13 +3,17 @@ body{
     #e8e8e8;
 }
 #vision-board{
+	margin: 50px auto;
     width:1200px;
     height:850;
     overflow: auto;
     background: url('../img/background.png');
 	background-size: cover;
 	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
 	text-transform: uppercase;
+	
 }
    
 .block {
@@ -19,10 +23,13 @@ body{
 }
 
 .small-block {
+	padding: 20px 40px;
 	height: 210px;
+	
 }
 
 .large-block {
+	padding: 70px 40px; 
 	height: 430px;
 }
 
@@ -32,4 +39,33 @@ body{
 
 .right {
 	text-align: right;
+}
+.dark-bg {
+	background: #3b3b3b;
+	color:#FFFFFF;
+}
+.light-bg{
+	background:#FFFFFF;
+}
+.highlight{
+	padding: 5px 15px;
+	background:#FFF44F;
+	font-size: 18px;
+}
+.marker{
+	font-family: 'Permanent Marker',cursive;
+	font-weight: normal;
+}
+strong {
+	font-size: 38px;
+	text-transform: none;
+	line-height: 38px;
+
+}
+.title {
+	margin: 10px 0; 
+	font-size: 30px;
+}
+.top-padding {
+	padding-top: 40px; 
 }
